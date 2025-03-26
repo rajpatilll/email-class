@@ -1,0 +1,108 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analysis Results</title>
+    <!-- Updated Bootstrap CSS for a more modern look -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #e9ecef;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .btn-custom {
+            background-image: linear-gradient(to right, #6a11cb, #2575fc);
+            color: white;
+            border-radius: 25px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+
+        .badge {
+            font-size: 1em;
+            padding: 10px 15px;
+            border-radius: 12px;
+        }
+
+        h1,
+        h3 {
+            color: #343a40;
+        }
+
+        p {
+            color: #495057;
+        }
+
+        pre {
+            background-color: #f1f3f5;
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .alert-info {
+            background-color: #cfe2f3;
+            color: #084298;
+            border-radius: 8px;
+        }
+
+        hr {
+            border-top: 2px solid #21a0f0;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="display-4">Analysis Results</h1>
+            <hr>
+        </div>
+
+        <!-- Email Analysis Results -->
+        <h3>Email SPF and DMARC Analysis</h3>
+        <p><strong>SPF Result:</strong> <span class="badge bg-secondary">{{ spf_result }}</span></p>
+        <p><strong>DMARC Result:</strong> <span class="badge bg-secondary">{{ dmarc_result }}</span></p>
+
+        <!-- URL Analysis Results -->
+        <h3 class="mt-5">URL Analysis</h3>
+        <div class="p-4 bg-light rounded">
+            <pre>{{ url_result }}</pre>
+        </div>
+
+        <!-- Final Classification -->
+        <h3 class="mt-5">Phishing Classification</h3>
+        <p class="alert alert-info"><strong>{{ classification }}</strong></p>
+
+        <div class="text-center">
+            <a href="/" class="btn btn-custom">Go Back</a>
+        </div>
+    </div>
+
+    <!-- Updated Bootstrap JS for current version -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.1/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

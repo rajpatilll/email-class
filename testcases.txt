@@ -1,0 +1,52 @@
+Subject: Team Meeting on Friday
+
+Hi Team,
+
+Just a quick reminder about the team meeting scheduled for this Friday at 10 AM. We'll be discussing the project updates and next week's deliverables. Let me know if you have any agenda items to add.
+
+Best regards,
+John
+
+
+Subject: Lunch this Weekend?
+
+Hey Sarah,
+
+It’s been a while! Do you want to grab lunch this weekend? Let me know when you're free.
+
+Take care,
+Alex
+
+
+Subject: You’ve Won a $1,000 Gift Card!
+
+Congratulations! You’ve been selected as the lucky winner of a $1,000 Amazon gift card. To claim your prize, click the link below and fill in your details. Hurry, this offer expires soon!
+
+Claim now: [malicious link]
+
+Best regards,
+Amazon Rewards Team
+
+
+Subject: Action Required: Suspicious Activity Detected
+
+Dear Customer,
+
+We detected suspicious activity in your account and temporarily suspended access. To restore your account, please click the link below and verify your identity immediately.
+
+Verify your account: [malicious link]
+
+Sincerely,
+Bank Security Team
+
+
+Subject: Invoice Due: Payment Needed
+
+Dear User,
+
+Your invoice #23745 is overdue. Please make a payment to avoid penalties. Click the link below to complete the payment securely.
+
+Pay Invoice: [malicious link]
+
+Best regards,
+Finance Department

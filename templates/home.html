@@ -1,0 +1,84 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Email & URL Analyzer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e9ecef;
+            color: #333;
+        }
+
+        .container {
+            margin-top: 60px;
+            max-width: 750px;
+            background: #ffffff;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+            padding: 40px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+        }
+
+        h1 {
+            font-weight: 500;
+            color: #007bff;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            padding: 10px 20px;
+            font-size: 1.1rem;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+
+        .text-center {
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="mb-4 text-center">Phishing Detection System</h1>
+        <p class="text-center mb-4">Smartly analyze email content, SPF/DMARC authentication, and URLs to determine their safety.</p>
+        <form action="/analyze" method="POST">
+            <div class="form-group">
+                <label for="message"><strong>Email Content</strong></label>
+                <textarea class="form-control" name="message" id="message" rows="6" placeholder="Paste email content here..." required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="email"><strong>Email Address</strong></label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="e.g., example@domain.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="url"><strong>Enter URL (if applicable)</strong></label>
+                <input type="url" class="form-control" name="url" id="url" placeholder="e.g., https://example.com">
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block mt-4">Analyze</button>
+        </form>
+    </div>
+</body>
+
+</html>
