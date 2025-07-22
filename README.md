@@ -6,20 +6,20 @@ This project is a machine learning-based spam email classifier that can distingu
 
 🚀 Features
 
-✅ Spam Detection – Classifies emails as spam or ham
+ Spam Detection – Classifies emails as spam or ham
 
-✅ Text Preprocessing – Tokenization, stopword removal, stemming/lemmatization
+ Text Preprocessing – Tokenization, stopword removal, stemming/lemmatization
 
-✅ Machine Learning Model – Uses algorithms like Naïve Bayes, SVM, or a neural network
+ Machine Learning Model – Uses algorithms like Naïve Bayes, SVM, or a neural network
 
-✅ User-Friendly – Simple interface to input text and get predictions
+ User-Friendly – Simple interface to input text and get predictions
 
-✅ Dataset-Based – Trained on a labeled dataset of spam and ham emails
+ Dataset-Based – Trained on a labeled dataset of spam and ham emails
 
 
 🛠️ Tech Stack
 
-Python 🐍
+Python 
 
 Scikit-learn – ML models
 
@@ -29,7 +29,7 @@ Flask / Streamlit (Optional) – Web interface
 
 Jupyter Notebook – Training and analysis
 
-🤖 Machine Learning Model
+ Machine Learning Model
 
 Algorithms Used: Naïve Bayes / SVM / Logistic Regression
 
@@ -37,7 +37,7 @@ Vectorization: TF-IDF / Count Vectorizer
 
 Evaluation Metrics: Accuracy, Precision, Recall, F1-score
 
-📌 Usage
+ Usage
 
 Enter an email text to classify it as Spam or Ham.
 
